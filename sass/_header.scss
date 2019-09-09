@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+
+    a {
+        display: inline-block;
+    }
+
+    h2 {
+        display: inline-block;
+        margin: 0 20px;
+    }
+}
