@@ -1,0 +1,17 @@
+.features {
+    margin: 0;
+
+    .features_main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .wrapper > * {
+        width: 33.3%;
+    }
+}

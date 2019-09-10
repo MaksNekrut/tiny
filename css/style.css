@@ -10,12 +10,25 @@
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding-top: 100px; }
-  .header a {
-    display: inline-block; }
-  .header h2 {
-    display: inline-block;
-    margin: 0 20px; }
+  .header__logo {
+    display: flex;
+    align-items: center; }
+    .header__logo h2 {
+      margin: 0 0 0 1.5rem;
+      font-size: 2rem; }
+
+.features {
+  margin: 0; }
+  .features .features_main {
+    display: flex;
+    flex-direction: column; }
+  .features .wrapper {
+    display: flex;
+    flex-flow: row wrap; }
+  .features .wrapper > * {
+    width: 33.3%; }
 
 * {
   font-family: 'Source Sans Pro', sans-serif; }

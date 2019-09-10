@@ -1,14 +1,14 @@
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-top: 100px;
-
-    a {
-        display: inline-block;
-    }
-
-    h2 {
-        display: inline-block;
-        margin: 0 20px;
-    }
+    &__logo {
+       display: flex;
+       align-items: center;
+       h2 {
+           margin: 0 0 0 1.5rem;
+           font-size: 2rem;
+       }
+   }
 }
