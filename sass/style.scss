@@ -4,6 +4,14 @@
 @import 'features.scss';
 @import 'pricing.scss';
 
+html {
+    box-sizing: border-box;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
 * {
     font-family: 'Source Sans Pro', sans-serif;
 }
