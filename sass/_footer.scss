@@ -1,0 +1,33 @@
+.footer {
+    margin: 0;
+    &__main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__form {
+        margin: 0 2rem;
+        text-align: center;
+        input {
+            width: 60%;
+            height: 2rem;
+        }
+        button {
+            width: 10rem;
+            height: 2rem;
+
+        }
+    
+    } 
+    &__bottom {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    &__bottom > * {
+        flex-direction: column;
+    } 
+
+  
+}

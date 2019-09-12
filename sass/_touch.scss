@@ -1,0 +1,36 @@
+.touch {
+    margin: 0;
+    &__main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__items {
+        display: flex;
+    }
+    &__items > * {
+        width: 33.3%;
+    }
+    &__form {
+        display: flex;
+        flex-direction: column;
+
+        input {
+            width: 80%;
+            margin: 1rem auto;
+        }
+        textarea {
+            width: 80%;
+            margin: 1rem auto;
+        }
+        button {
+            display: inline-block;
+            color: #ffff;
+            background-color: #333;
+            padding: 1rem;
+            width: 10rem;
+            margin: 1rem auto;
+        }
+    }
+}

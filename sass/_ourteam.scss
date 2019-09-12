@@ -1,4 +1,4 @@
-.pricing {
+.ourteam {
     margin: 0;
     &__main {
         display: flex;
@@ -6,10 +6,11 @@
         justify-content: center;
         align-items: center;
     }
-    .pricingwrapper {
+    &__items {
         display: flex;
+        justify-content: space-around;
     }
-    .pricingwrapper > * {
-        width: 33.3%;
+    &__items > * {
+        width: 25%;
     }
 }

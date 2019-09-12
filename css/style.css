@@ -30,6 +30,122 @@
   .features .wrapper > * {
     width: 33.3%; }
 
+.pricing {
+  margin: 0; }
+  .pricing__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .pricing .pricingwrapper {
+    display: flex; }
+  .pricing .pricingwrapper > * {
+    width: 33.3%; }
+
+.ourworks {
+  margin: 0; }
+  .ourworks__main {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .ourworks__items {
+    display: flex;
+    flex-flow: row wrap; }
+  .ourworks__items > * {
+    width: 25%; }
+
+.ourteam {
+  margin: 0; }
+  .ourteam__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .ourteam__items {
+    display: flex;
+    justify-content: space-around; }
+  .ourteam__items > * {
+    width: 25%; }
+
+.testimonial {
+  margin: 0; }
+  .testimonial__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .testimonial__items {
+    display: flex; }
+  .testimonial__items > * {
+    width: 25%; }
+  .testimonial__example {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+    .testimonial__example__logo {
+      width: 100px;
+      height: 100px; }
+    .testimonial__example__q1 {
+      width: 10px;
+      height: 10px;
+      margin-right: 20px; }
+    .testimonial__example__q2 {
+      width: 10px;
+      height: 10 px;
+      margin-left: 20px; }
+
+.touch {
+  margin: 0; }
+  .touch__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .touch__items {
+    display: flex; }
+  .touch__items > * {
+    width: 33.3%; }
+  .touch__form {
+    display: flex;
+    flex-direction: column; }
+    .touch__form input {
+      width: 80%;
+      margin: 1rem auto; }
+    .touch__form textarea {
+      width: 80%;
+      margin: 1rem auto; }
+    .touch__form button {
+      display: inline-block;
+      color: #ffff;
+      background-color: #333;
+      padding: 1rem;
+      width: 10rem;
+      margin: 1rem auto; }
+
+.footer {
+  margin: 0; }
+  .footer__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .footer__form {
+    margin: 0 2rem;
+    text-align: center; }
+    .footer__form input {
+      width: 60%;
+      height: 2rem; }
+    .footer__form button {
+      width: 10rem;
+      height: 2rem; }
+  .footer__bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  .footer__bottom > * {
+    flex-direction: column; }
+
 html {
   box-sizing: border-box; }
 

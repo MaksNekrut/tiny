@@ -1,0 +1,35 @@
+.testimonial {
+    margin: 0;
+    &__main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    &__items {
+        display: flex;
+    }
+    &__items > * {
+        width: 25%; 
+    }
+    &__example {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;  
+        &__logo {
+            width: 100px;
+            height: 100px;    
+        }
+        &__q1 {
+            width: 10px;
+            height: 10px;
+            margin-right: 20px;
+        }
+        &__q2 {
+            width: 10px;
+            height: 10 px;
+            margin-left: 20px;
+        }
+    }
+}

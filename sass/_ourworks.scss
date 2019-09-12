@@ -1,15 +1,15 @@
-.pricing {
+.ourworks {
     margin: 0;
     &__main {
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .pricingwrapper {
+    &__items {
         display: flex;
+        flex-flow: row wrap;
     }
-    .pricingwrapper > * {
-        width: 33.3%;
+    &__items > * {
+        width: 25%;
     }
-}
+}   
