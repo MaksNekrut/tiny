@@ -1,9 +1,13 @@
 .ourworks {
-    margin: 0;
+    margin-top: 8rem;
     &__main {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    &__subtitle {
+        margin-bottom: 4rem;
     }
     &__items {
         display: flex;
@@ -11,5 +15,6 @@
     }
     &__items > * {
         width: 25%;
+        text-align: center;
     }
 }   
