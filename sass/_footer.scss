@@ -1,33 +1,46 @@
 .footer {
     margin: 0;
+    background-color: #000000;
+    color: #ffff;
+    min-height: 600px;
     &__main {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
+        padding-top: 4rem;
     }
     &__form {
-        margin: 0 2rem;
+        margin: 2rem 2rem;
         text-align: center;
         input {
-            width: 60%;
-            height: 2rem;
+            width: 40%;
+            height: 3rem;
         }
         button {
-            width: 10rem;
-            height: 2rem;
+            width: 8rem;
+            height: 3rem;
+            font-weight: 900;
+            color: #000000;
+            text-transform: uppercase;
 
         }
     
     } 
     &__bottom {
+        margin: 4rem 14rem;
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+        flex-direction: row;     
     }
     &__bottom > * {
         flex-direction: column;
+        margin: 0 4rem;
     } 
+    &__bottom > div > a {
+        text-decoration: none;
+        color: white;
+    }
 
   
 }

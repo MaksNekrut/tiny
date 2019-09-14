@@ -1,17 +1,36 @@
 .testimonial {
-    margin: 0;
-    &__main {
+    margin-top: 8rem;
+    .smallcontainer {
+        width: 960px;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
     }
+   
     &__items {
         display: flex;
+        flex-direction: row;
+        margin-top: 2rem;
+        justify-content: space-around;
+    }
+    &__downloads > h3 {
+        margin-top: 1.5rem;
+    }
+    &__customers > h3 {
+        margin-top: 0.9rem;
+    }
+    &__like > h3 {
+        margin-top: 1.3rem;
     }
     &__items > * {
         width: 25%; 
+        margin: 1rem 2rem;
     }
     &__example {
+        margin: 4rem 2rem;
         display: flex;
         flex-direction: column;
         justify-content: center;

@@ -1,5 +1,10 @@
 .touch {
-    margin: 0;
+    margin-top: 4rem;
+    text-align: center;
+    .smallcontainer {
+        width: 960px;
+        margin: 0 auto;
+    }
     &__main {
         display: flex;
         flex-direction: column;
@@ -8,9 +13,36 @@
     }
     &__items {
         display: flex;
+        margin-top: 3rem;
+        justify-content: center;
+        align-items: center;
+        .touch__address > p {
+            margin-top: 1.2rem;
+        }
+        .touch__address > img {
+            margin-top: 1.7rem;
+        }
+       
+    }
+    &__form {
+        width: 700px;
+        margin: 3rem auto;
+        input {
+            height: 3rem;
+            padding: 1rem 1rem;
+        }
+        textarea {
+            max-width: 80%;
+            height: 12rem;
+            max-height: 15rem;
+            padding: 1rem 1rem;
+        }
     }
     &__items > * {
         width: 33.3%;
+        .touch__address > h3 {
+            margin-top: rem;
+        }
     }
     &__form {
         display: flex;
